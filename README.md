@@ -12,11 +12,15 @@
 
 # Запуск мартина
 
-Для генерации векторных тайлов используем сервер векторных тайлов Martin. Загрузим это приложение [отсюда](https://github.com/maplibre/martin/releases).
+Для генерации векторных тайлов используем сервер векторных тайлов Martin.  
+Загрузим это приложение [отсюда](https://github.com/maplibre/martin/releases).
+
 ```shell
 martin postgresql://postgres:password@localhost:5432/oikonyms
 ```
+
 Output:
+
 ```
 ...
 [2025-05-05T17:46:06Z INFO  martin::pg::builder] Auto-publishing functions in schemas [] as '{function}' sources
@@ -34,7 +38,7 @@ Output:
 
 > `/catalog`, `/grid`, `/grid/{z}/{x}/{y}` — это всё эндпоинты API, которое для нас автоматически формирует Martin. Он же выполняет нужные серверные функции, за счёт которых мы получаем ответы, обращаясь к этим эндпоинтам. И ничего не пришлось писать самим, как в прошлом упражнении!
 
+# Дополнительная информация
 
-Дополнительно
 - TileJSON 3.0.0 / TileJSON [ссылка](https://github.com/mapbox/tilejson-spec/blob/master/3.0.0/README.md)
 - Vector tiles standards / Mapbox [ссылка](https://docs.mapbox.com/data/tilesets/guides/vector-tiles-standards/)
