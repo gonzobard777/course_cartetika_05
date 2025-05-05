@@ -14,6 +14,8 @@
 
 # Запуск мартина
 
+![](./files/img/tiles_description.png)
+
 Для генерации векторных тайлов используем сервер векторных тайлов Martin.  
 Загрузим это приложение [отсюда](https://github.com/maplibre/martin/releases).
 
