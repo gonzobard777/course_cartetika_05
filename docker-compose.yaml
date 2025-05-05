@@ -1,0 +1,10 @@
+services:
+  db:
+    container_name: cartetika_05
+    image: postgis/postgis:17-master
+    ports:
+      - "8090:5432"
+    environment:
+      - POSTGRES_DB=db
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=12345
