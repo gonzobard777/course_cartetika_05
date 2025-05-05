@@ -1,3 +1,5 @@
+Пример результата: https://gtitov.github.io/martin-maplibre-map/#6/55/37
+
 # Загрузка данных в бд
 
 Через QGIS загрузить в бд postgres+postgis (смотри docker-compose.yaml) содержимое следующих файлов:
